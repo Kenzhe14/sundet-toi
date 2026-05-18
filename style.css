@@ -316,12 +316,16 @@ body {
     background: var(--black);
     color: var(--white);
     text-decoration: none;
+    border: none;
     border-radius: 50px;
     font-family: 'Tenor Sans', sans-serif;
     font-size: 0.85rem;
     letter-spacing: 4px;
     font-weight: 400;
+    cursor: pointer;
     transition: opacity 0.3s;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .gis-btn:active {
